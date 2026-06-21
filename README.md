@@ -1,6 +1,6 @@
 # StatSport — Explainable Football Match Prediction
 
-![StatSport — AI-Powered Football Analytics and Prediction Showcase](assets/STATSPORT_AI_POWERED_FOOTBALL_ANALYTICS_AND_PREDICTION_SHOWCASE.png)
+![StatSport Prediction Center Showcase](assets/STATSPORT_PREDICTION_CENTER_SHOWCASE_2027_v1.0.png)
 
 > Turning historical Bundesliga results into an honest, reproducible, explainable match-prediction portfolio project.
 
@@ -48,8 +48,6 @@ presentation layer, not a requirement for reproducing the core results.
 StatSport also includes a local Streamlit Showcase UI as a post-v1 portfolio enhancement. StatSport
 v1 remains complete independently of this UI: the data pipeline, baseline, Logistic Regression model,
 evaluation, explainability artifacts, and reproduction guide are the core project.
-
-![StatSport Prediction Center Showcase](assets/STATSPORT_PREDICTION_CENTER_SHOWCASE_2027_v1.0.png)
 
 The showcase centers on a read-only Prediction Center:
 
