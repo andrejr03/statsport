@@ -1,0 +1,134 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+.conda/
+conda-meta/
+
+# ---- Environment / secrets ----
+.env
+.env.*
+*.local
+
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ---- IDE / editors ----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# ---- Model artifacts ----
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+*.pb
+*.tflite
+*.bin
+*.model
+*.safetensors
+models/
+checkpoints/
+mlruns/
+wandb/
+
+# ---- Datasets ----
+data/raw/*
+data/processed/*
+data/external/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.arrow
+*.xls
+*.xlsx
+*.zip
+*.gz
+*.tar
+*.7z
+*.db
+*.sqlite
+*.sqlite3
+
+# ---- Generated outputs ----
+outputs/figures/*
+outputs/reports/*
+outputs/exports/*
+!outputs/figures/.gitkeep
+!outputs/reports/.gitkeep
+!outputs/exports/.gitkeep
+
+# ---- Internal recruiter / portfolio strategy reviews ----
+docs/reviews/*RECRUITER*
+docs/reviews/*WERKSTUDENT*
+docs/reviews/*IMPACT*
+docs/reviews/*MULTI_SPECIALIST*
+docs/reviews/*VISUAL_MEMORY*
+docs/reviews/*RETENTION*
+docs/plans/STATSPORT_SHOWCASE_UI_V2_PRODUCT_DIRECTION.md
+
+# ---- Logs ----
+*.log
+logs/
+
+# Playwright screenshots only
+output/playwright/
