@@ -87,13 +87,7 @@ checkpoints/
 mlruns/
 wandb/
 
-# ---- Datasets ----
-data/raw/*
-data/processed/*
-data/external/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-!data/external/.gitkeep
+# ---- Local tabular / archive data files ----
 *.csv
 *.tsv
 *.parquet
@@ -108,6 +102,15 @@ data/external/*
 *.db
 *.sqlite
 *.sqlite3
+
+# ---- Datasets ----
+# Raw source CSVs are reproducibly downloaded from Football-Data.co.uk.
+data/raw/*.csv
+data/processed/*
+data/external/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
 
 # ---- Generated outputs ----
 outputs/figures/*
@@ -131,4 +134,4 @@ docs/plans/STATSPORT_SHOWCASE_UI_V2_PRODUCT_DIRECTION.md
 logs/
 
 # Playwright screenshots only
-output/playwright/
+output/playwright/*

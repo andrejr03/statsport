@@ -62,6 +62,67 @@ The showcase is local-only and does not add live data, betting features, account
 serving, or any deployment requirement. It reads already-generated local artifacts and is documented
 in [Streamlit Showcase UI evidence](docs/evidence/STATSPORT_STREAMLIT_SHOWCASE_UI_EVIDENCE_v1.md).
 
+## Running The Showcase UI
+
+The Showcase UI runs locally from regenerated project artifacts. A fresh clone can download the
+approved public Football-Data.co.uk source CSVs, rebuild the ignored generated outputs, and launch
+Streamlit without any account or API key.
+
+macOS/Linux setup:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install --upgrade pip
+python3 -m pip install -r requirements.txt
+```
+
+Windows PowerShell setup:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+Download the approved raw Bundesliga CSVs, then regenerate the required processed data, evaluation
+outputs, and explainability artifacts from the repository root:
+
+macOS/Linux:
+
+```bash
+python3 scripts/download_bundesliga_raw_data.py
+python3 scripts/process_bundesliga_raw_data.py
+python3 scripts/build_bundesliga_features.py
+python3 scripts/evaluate_baseline_model.py
+python3 scripts/evaluate_logistic_regression_model.py
+python3 scripts/build_model_comparison_reports.py
+python3 scripts/build_explainability_artifacts.py
+```
+
+Windows PowerShell:
+
+```powershell
+python scripts/download_bundesliga_raw_data.py
+python scripts/process_bundesliga_raw_data.py
+python scripts/build_bundesliga_features.py
+python scripts/evaluate_baseline_model.py
+python scripts/evaluate_logistic_regression_model.py
+python scripts/build_model_comparison_reports.py
+python scripts/build_explainability_artifacts.py
+```
+
+Launch the local Showcase UI:
+
+```bash
+streamlit run streamlit_app.py
+```
+
+Open [http://localhost:8501](http://localhost:8501). If the app reports missing artifacts, rerun the
+download and regeneration commands above from the repository root. The UI is a read-only local
+portfolio replay: it uses no live data, betting features, API, account, or hosted service.
+
 ## Data
 
 The dataset uses Football-Data.co.uk Bundesliga CSVs:
@@ -75,8 +136,9 @@ The dataset uses Football-Data.co.uk Bundesliga CSVs:
 | 2024/25 | 306 |
 | **Total** | **1530** |
 
-Raw and processed data are not committed. The repository documents the acquisition and regeneration
-process instead:
+Raw source CSVs are downloaded from Football-Data.co.uk with
+`scripts/download_bundesliga_raw_data.py`. Processed data and generated reports are not committed;
+they are regenerated locally:
 
 - [Dataset acquisition evidence](docs/evidence/STATSPORT_DATASET_ACQUISITION_EVIDENCE_v1.md)
 - [Data processing evidence](docs/evidence/STATSPORT_DATA_PROCESSING_PIPELINE_EVIDENCE_v1.md)
