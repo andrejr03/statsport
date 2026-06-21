@@ -135,3 +135,5 @@ logs/
 
 # Playwright screenshots only
 output/playwright/*
+# Review packages
+output/reviews/
