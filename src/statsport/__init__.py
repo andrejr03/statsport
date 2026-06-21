@@ -1,0 +1,2 @@
+"""StatSport project package."""
+
