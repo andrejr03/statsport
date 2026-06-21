@@ -183,8 +183,8 @@ Per [`REPRODUCIBILITY_SPEC.md`](docs/specs/REPRODUCIBILITY_SPEC.md):
 
 The project must remain reproducible on **both**:
 
-- **macOS** (the project's macOS environment — primarily Alex).
-- **Windows 11** (André's primary environment).
+- **macOS**.
+- **Windows 11**.
 
 Avoid OS-specific assumptions where practical; use relative paths (no hard-coded `C:\...` or
 `/Users/...`); when platform-specific steps are unavoidable, document **both** macOS and Windows 11.

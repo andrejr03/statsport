@@ -15,8 +15,8 @@
 
 > **What this document is:** the portfolio-positioning strategy for StatSport. It defines what a
 > *completed, portfolio-ready* repository must contain — in information, artifacts, documentation, and
-> presentation quality — so André can confidently use it for university admissions, internship
-> applications, GitHub portfolio presentation, technical discussions, and future extension. It is
+> presentation quality — so it can support public project presentation, technical discussions, and
+> future extension. It is
 > **not** a Git/GitHub setup guide and **not** a developer onboarding guide. It conforms to all
 > existing specifications and does **not** fix final branding or layout decisions.
 >
@@ -57,8 +57,8 @@ When these principles conflict, the inherited priority order and the time budget
 
 ## 3. Portfolio Objectives
 
-- Produce a repository André can confidently use for **admissions, internships, GitHub presentation,
-  technical discussions, and future extension**.
+- Produce a repository that can support **GitHub presentation, technical discussions, and future
+  extension**.
 - Make the project **understandable in minutes** by a reviewer with no prior context.
 - Communicate **scope, methodology, results, explainability, and limitations** clearly and honestly.
 - Ensure all claims are **supported and reproducible** (per `REPRODUCIBILITY_SPEC.md`).
@@ -70,8 +70,8 @@ When these principles conflict, the inherited priority order and the time budget
 
 The repository must be understandable by:
 
-- **Admissions reviewers** at the University of Passau.
-- **Recruiters** screening for internships.
+- **Technical reviewers** assessing the project.
+- **GitHub readers** skimming for evidence of competence.
 - **Technically literate non-specialists** who are not ML experts.
 - **Future collaborators** who may extend the work.
 - **Future André**, returning later without fresh memory of the details.
@@ -82,17 +82,17 @@ principle in `EXPLAINABILITY_SPEC.md`).
 
 ---
 
-## 5. Admissions-Readiness Requirements
+## 5. Public-Readiness Requirements
 
 The repository should clearly communicate:
 
-- **Learning outcomes** — what André demonstrably learned and can do.
+- **Learning outcomes** — what the project demonstrates.
 - **Project scope** — what the project does and deliberately does not do.
 - **Methodology** — how the work was approached (data → modelling → evaluation → explainability).
 - **Limitations** — honest boundaries and caveats.
 - **Results** — what was found, framed against the baseline.
 
-These must be expressed at a level an admissions reader can follow, consistent with the project's
+These must be expressed at a level a technically literate reader can follow, consistent with the project's
 honesty and clarity priorities.
 
 ---
@@ -184,7 +184,7 @@ StatSport is considered **complete as a portfolio project** when:
 - [ ] The work is **reproducible** from repository contents and documented steps (per `REPRODUCIBILITY_SPEC.md`).
 - [ ] A **clear README** communicates motivation, problem, methodology, results, explainability, reproducibility, and navigation (content per §7).
 - [ ] **Documentation is consistent, honest, and navigable** (per §8–§10).
-- [ ] The repository is **presentable** for admissions, internships, and technical discussion.
+- [ ] The repository is **presentable** for public review and technical discussion.
 - [ ] The project **respects the 40–60 hour budget** and the existing **non-goals and scope boundaries**.
 - [ ] The project is **finished**, enabling the other **two** summer portfolio repositories.
 

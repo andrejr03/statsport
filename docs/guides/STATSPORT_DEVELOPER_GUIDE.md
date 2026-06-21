@@ -96,7 +96,7 @@ files) but their *contents* are ignored. You commit the **process**, not the **d
 
 ## 4. macOS Setup Guidance
 
-> _Alex primarily works on macOS; André primarily works on Windows 11 (see §5). Both setups are
+> _The project is expected to work on macOS and Windows 11 (see §5). Both setups are
 > supported, and the goal is to keep everything working the same way on both._
 
 1. **Install Homebrew** (the macOS package manager) — visit [brew.sh](https://brew.sh) and follow the
@@ -370,7 +370,7 @@ these four reminders in front of you (from [`PORTFOLIO_HANDOFF_SPEC.md`](../spec
 - **Reproducible > clever** — results others can recreate beat impressive one-offs.
 - **Honest > impressive** — state limitations openly; never inflate claims.
 
-A reviewer (admissions, recruiter, or future collaborator) should understand your project in minutes.
+A reviewer or future collaborator should understand the project in minutes.
 Write for that reader.
 
 ---

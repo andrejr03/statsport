@@ -8,7 +8,7 @@
 ## Purpose
 
 This document records evidence that StatSport was finalized as a portfolio-ready repository for
-university admissions review, internship review, and GitHub portfolio review.
+public project review, technical discussion, and GitHub browsing.
 
 This milestone does not retrain models, implement Random Forest, create Streamlit, create dashboards,
 create APIs, create notebooks, modify specs, or start post-project enhancements.

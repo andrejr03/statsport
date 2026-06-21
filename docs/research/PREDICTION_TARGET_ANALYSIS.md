@@ -78,7 +78,7 @@ average rescaled: `Fit = Σ(score × weight) ÷ Σ(weight) × 20`, with `Σ(weig
 | 7 | Reproducibility | 5 | Label derived deterministically from documented fields |
 | 8 | Data suitability | 4 | Directly and cleanly available from the selected dataset |
 | 9 | Fit for a 40–60 hour project | 4 | Comfortably finishable, leaving room for two more projects |
-| 10 | Admissions-review suitability | 4 | Reads as mature, honest analytical work to a Passau reader |
+| 10 | Public-review suitability | 4 | Reads as mature, honest analytical work to a technical reader |
 | 11 | Technical communication value | 4 | Supports a clear, complete narrative end to end |
 | 12 | Long-term maintainability | 2 | Stable definition unlikely to need rework |
 
@@ -112,7 +112,7 @@ models; the draw class adds analysis (not infrastructure).
 intuitive drivers; ideal for the reader-first explanations in `EXPLAINABILITY_SPEC.md`.
 
 **Portfolio suitability.** **Excellent** — the definitive demonstration of a football match predictor;
-strongest admissions and communication signal.
+strongest public-review and communication signal.
 
 **Fit score: 96 / 100.**
 
@@ -177,7 +177,7 @@ from goal columns.
 **Cons.** The threshold is **arbitrary** (2.5 is a betting convention), and the target is **strongly
 associated with betting markets** — in tension with the project's "**NOT a betting/odds product**"
 non-goal framing (`PROJECT_OVERVIEW.md`, `AGENTS.md` §8). Analytically legitimate, but a weaker
-*portfolio and admissions* framing.
+*portfolio and public-review* framing.
 
 **Risks.** Optics: may read as a betting-flavored project despite the non-goal; threshold choice needs
 justification.
@@ -202,7 +202,7 @@ betting-adjacent.
 **Cons.** Also a **betting-market staple** (same non-goal tension as §3.4); somewhat **niche/gimmicky**
 as a portfolio headline and further from "who wins."
 
-**Risks.** Betting-framing optics; less compelling admissions narrative.
+**Risks.** Betting-framing optics; less compelling public-review narrative.
 
 **Expected implementation complexity.** **Low.**
 
@@ -302,7 +302,7 @@ Scores are 1–5 per criterion (see §2.1 rubric); the final column is the weigh
 
 > **Note on the top two:** 1X2 and Home-Win-vs-Not score within a few points and are genuinely close.
 > Home-Win edges ahead on *evaluation simplicity, modelling, and budget fit*; 1X2 wins on the single
-> **highest-weighted** criterion (portfolio value) plus admissions and communication value, and tells
+> **highest-weighted** criterion (portfolio value) plus public-review and communication value, and tells
 > the complete match-outcome story. Under the inherited priority order (portfolio value first), 1X2
 > leads — but Home-Win is the deliberate, well-matched fallback precisely because it is simpler.
 
@@ -326,8 +326,8 @@ data, so switching is cheap and reproducible.
 ### 6.3 Rationale (alignment with the specifications)
 
 - **`PROJECT_OVERVIEW.md` — portfolio value & scope.** Portfolio value is the #1 priority. 1X2 is the
-  definitive, recognizable football prediction, giving the strongest signal to reviewers and Passau
-  admissions readers. It stays squarely within the bounded scope and well clear of the betting non-goal
+  definitive, recognizable football prediction, giving the strongest signal to reviewers. It stays
+  squarely within the bounded scope and well clear of the betting non-goal
   (unlike Over/Under and BTTS, which are analytically valid but betting-adjacent in framing).
 - **`MODELING_SPEC.md` — interpretable, baseline-first, finishable.** 1X2 has an obvious, honest
   baseline (a home-advantage / majority-class prior) and suits classical, interpretable families
@@ -368,7 +368,7 @@ data, so switching is cheap and reproducible.
 - **Fit scores are a structured judgment**, not a measurement; the ranking is more meaningful than the
   exact number, and the top two are deliberately close.
 - **Betting-adjacent targets are scored lower on framing, not capability** — they remain analytically
-  valid; the penalty reflects portfolio/admissions optics under the project's non-goals.
+  valid; the penalty reflects portfolio/public-review optics under the project's non-goals.
 
 ---
 

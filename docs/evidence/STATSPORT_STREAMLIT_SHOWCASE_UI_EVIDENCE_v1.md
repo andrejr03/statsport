@@ -95,7 +95,7 @@ The app uses a dark, premium portfolio theme.
 Rationale:
 
 - It aligns with the supplied showcase image.
-- It gives the project a memorable admissions/recruiter presentation without introducing betting or
+- It gives the project a memorable public presentation without introducing betting or
 product styling.
 - It keeps the football analytics aesthetic restrained and readable.
 

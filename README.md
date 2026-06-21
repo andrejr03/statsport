@@ -35,7 +35,7 @@ evaluation, explainability, reproducibility, and clear communication.
 StatSport is deliberately small and finished. It is:
 
 - a local analytics and modelling workflow;
-- a portfolio artifact for university admissions, internships, and GitHub review;
+- a public project artifact for technical review and GitHub browsing;
 - bounded to Bundesliga seasons 2020/21 through 2024/25.
 
 It is not a SaaS product, betting product, live prediction service, hosted dashboard, API, large

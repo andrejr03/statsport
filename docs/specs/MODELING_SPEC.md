@@ -54,7 +54,7 @@ to it is cheap and reproducible.
 ### Alignment with portfolio goals
 
 A home/draw/away predictor is the definitive demonstration of football match prediction — the
-strongest, most recognizable signal to portfolio reviewers and University of Passau admissions readers,
+strongest, most recognizable signal to public project reviewers,
 consistent with the portfolio-value priority in [`PROJECT_OVERVIEW.md`](PROJECT_OVERVIEW.md). It stays
 within the bounded scope and clear of the betting non-goal.
 
@@ -146,7 +146,7 @@ double-counted.
 ### Alignment with portfolio goals
 
 The core set is the recognizable, expected feature spine of a football predictor — the strongest, cleanest
-signal to portfolio reviewers and University of Passau admissions readers, consistent with the
+signal to public project reviewers, consistent with the
 portfolio-value priority in [`PROJECT_OVERVIEW.md`](PROJECT_OVERVIEW.md). It stays squarely within the
 bounded scope and well clear of the betting non-goal (so odds, corners, and cards are excluded or
 down-weighted), and the compactness reads as competent, finished judgment rather than feature sprawl.
@@ -358,7 +358,7 @@ The modelling work should read as **competent, honest, and finished**:
 - A **clear baseline → selected-model** narrative a reviewer can follow.
 - **Justified choices** — every step explainable in plain language.
 - **Honest comparison** against the baseline, with limitations acknowledged.
-- **Interpretable results** suitable for university admissions review and public GitHub publication.
+- **Interpretable results** suitable for public GitHub publication and technical review.
 - **Reproducibility** that lets a reader re-run and trust the results.
 - Scoped to remain **one of three** completed summer portfolio repositories.
 

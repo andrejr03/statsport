@@ -2,9 +2,9 @@
 
 **Validation date:** 2026-06-21  
 **Repository tested:** `https://github.com/andrejr03/statsport.git`  
-**Fresh clone path:** `/Users/agentisstudio/Documents/statsport-fresh-clone-validation`  
+**Fresh clone path:** `<fresh-clone-path>`
 **Commit tested:** `ff26dd741d9ee5725aee13faa19d156f07d2f968`  
-**Runtime target:** fresh clone only; no files copied from `/Users/agentisstudio/Documents/statsport-ai`
+**Runtime target:** fresh clone only; no files copied from the original working tree.
 
 ## Purpose
 
@@ -15,9 +15,9 @@ Streamlit Showcase UI, and open it in a browser using the README instructions.
 ## Setup Commands Run
 
 ```bash
-rm -rf /Users/agentisstudio/Documents/statsport-fresh-clone-validation
-git clone https://github.com/andrejr03/statsport.git /Users/agentisstudio/Documents/statsport-fresh-clone-validation
-cd /Users/agentisstudio/Documents/statsport-fresh-clone-validation
+rm -rf <fresh-clone-path>
+git clone https://github.com/andrejr03/statsport.git <fresh-clone-path>
+cd <fresh-clone-path>
 python3 -m venv .venv
 .venv/bin/python -m pip install --upgrade pip
 .venv/bin/python -m pip install -r requirements.txt
@@ -134,7 +134,7 @@ Observed browser results:
 Screenshot captured in the fresh clone:
 
 ```text
-/Users/agentisstudio/Documents/statsport-fresh-clone-validation/output/playwright/fresh-clone-showcase-validation.png
+<fresh-clone-path>/output/playwright/fresh-clone-showcase-validation.png
 ```
 
 ## Friction Found

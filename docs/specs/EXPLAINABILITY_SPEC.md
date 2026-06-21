@@ -171,7 +171,7 @@ When these principles conflict, the inherited priority order and the time budget
 Explanations are written **for the reader**, specifically:
 
 - **Portfolio reviewers** assessing competence and communication.
-- **Admissions reviewers** at the University of Passau.
+- **Technical reviewers** assessing the project.
 - **Technically literate non-specialists** who are not ML experts.
 
 Accordingly:
@@ -249,7 +249,7 @@ The explainability work should read as **clear, honest, and finished**:
 - Explanations are **accessible**, jargon-light, and well-communicated.
 - **Global and local** views are both present and consistent.
 - **Limitations and uncertainty** are explained, not hidden.
-- Work is **reproducible** and suitable for **public GitHub publication** and **admissions review**,
+- Work is **reproducible** and suitable for **public GitHub publication** and **technical review**,
   scoped to remain **one of three** completed summer portfolio repositories.
 
 ---

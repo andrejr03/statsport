@@ -45,9 +45,9 @@ The Bundesliga slice of Football-Data.co.uk over five completed seasons was sele
 satisfies the project's inherited priorities (portfolio value → reproducibility → explainability →
 evaluation quality → presentation clarity) within the 40–60 hour budget. Specifically:
 
-- **Bundesliga relevance & Germany/Passau context.** StatSport is a portfolio piece aimed in part at
-  University of Passau admissions readers (`PROJECT_OVERVIEW.md`). Choosing Germany's top division
-  gives the work a locally resonant, recognizable subject without expanding scope.
+- **Bundesliga relevance & German football context.** StatSport is a portfolio piece centered on a
+  recognizable European football competition (`PROJECT_OVERVIEW.md`). Choosing Germany's top division
+  gives the work a clear, well-known subject without expanding scope.
 - **Explainable match-level features.** Football-Data.co.uk supplies a ready-made home/draw/away
   result label plus interpretable per-match statistics (goals, shots, shots on target, corners, fouls,
   cards). These map directly to plain-language football intuition, supporting the interpretable model

@@ -28,7 +28,7 @@
 
 ## 1. Purpose of the Reproducibility Layer
 
-The reproducibility layer ensures that **anyone** — a portfolio reviewer, an admissions reader, or a
+The reproducibility layer ensures that **anyone** — a portfolio reviewer, a technical reader, or a
 future version of the author — can **recreate StatSport's results** from the repository and its
 documentation alone. Its job is to make the project **self-contained and trustworthy**, so results
 are verifiable rather than taken on faith.

@@ -35,9 +35,9 @@ the clarity of its presentation — not by commercial outcomes.
 ## Portfolio Strategy Alignment
 
 StatSport is **repository 1 of 3** in a focused summer portfolio. The goal is for the author to
-arrive at the University of Passau with **three strong, finished GitHub repositories** rather than
-one sprawling, unfinished one. For that reason, StatSport must be *finishable* within its budget so
-that two further high-quality AI projects can follow.
+complete **three strong, finished GitHub repositories** rather than one sprawling, unfinished one. For
+that reason, StatSport must be *finishable* within its budget so that two further high-quality AI
+projects can follow.
 
 The signals this repository is intended to send to a reviewer:
 
@@ -96,8 +96,8 @@ outcome and explaining the forecast).
 The people who will **read and evaluate** this repository:
 
 - **Portfolio reviewers** assessing breadth, depth, and finish.
-- **University of Passau faculty and admissions readers** assessing analytical maturity.
-- **Recruiters and technical interviewers** skimming for evidence of competence.
+- **Technical reviewers** assessing analytical maturity.
+- **GitHub readers** skimming for evidence of competence.
 - **The author's future self**, returning to extend or explain the work.
 
 Each of these readers wants to understand the project quickly, trust its claims, and see honest,

@@ -289,7 +289,7 @@ The evaluation should read as **competent, honest, and finished**:
 - **Honest framing** of improvement, including null or marginal outcomes.
 - **Visible limitations and uncertainty**.
 - **Reproducible results** a reader can trust and re-run.
-- Suitable for **public GitHub publication** and **university admissions review**, and scoped to remain
+- Suitable for **public GitHub publication** and **technical review**, and scoped to remain
   **one of three** completed summer portfolio repositories.
 
 > The **final reporting format** (where/how results are presented) is **deferred** (see §14).

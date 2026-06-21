@@ -11,7 +11,7 @@ processing, feature engineering, baseline, selected model, evaluation, explainab
 documentation workflow without expanding into product, dashboard, API, notebook, or additional-model
 scope.
 
-The project is ready for university admissions review, internship review, GitHub portfolio review,
+The project is ready for public project review, GitHub browsing,
 and technical discussion.
 
 ## Architecture Goals
@@ -119,7 +119,7 @@ These limitations do not block completion; they are part of the honest portfolio
 | Work is reproducible from repository contents and documented steps | Complete |
 | README communicates motivation, problem, methodology, results, explainability, reproducibility, and navigation | Complete |
 | Documentation is consistent, honest, and navigable | Complete |
-| Repository is presentable for admissions, internships, and technical discussion | Complete |
+| Repository is presentable for public review and technical discussion | Complete |
 | Project respects 40-60 hour budget, non-goals, and scope boundaries | Complete |
 | Project is finished, enabling the other two summer portfolio repositories | Complete |
 

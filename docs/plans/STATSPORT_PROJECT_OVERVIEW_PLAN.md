@@ -4,7 +4,7 @@
 > content of the future `PROJECT_OVERVIEW.md` specification. This is **planning only** —
 > it does not create the spec itself, code, datasets, or notebooks.
 
-**Plan author context:** University-level AI portfolio project for André.
+**Plan author context:** University-level AI portfolio project.
 **Plan status:** Draft for review.
 **Date:** 2026-06-20.
 
@@ -17,9 +17,9 @@
 | **Suggested final spec file name** | `PROJECT_OVERVIEW.md` |
 | **Suggested final spec location** | `docs/specs/PROJECT_OVERVIEW.md` |
 | **Document type** | Top-level project specification (the anchor doc all later specs reference) |
-| **Owner** | André |
+| **Owner** | Project author |
 | **Phase** | Specification Phase |
-| **Audience for the spec** | André (author), portfolio reviewers, Passau admissions/faculty readers, future-self maintainer |
+| **Audience for the spec** | Project author, portfolio reviewers, technical readers, future-self maintainer |
 
 ---
 
@@ -49,8 +49,8 @@ The spec must state that StatSport prioritizes — in this order — over engine
 
 ### 2.3 Time budget
 - The project is scoped to **40–60 hours total**.
-- Reason: André must complete **two additional serious AI projects** over the summer, arriving at
-  Passau with **three strong GitHub portfolio repositories**.
+- Reason: the author must complete **two additional serious AI projects** over the summer, ending with
+  **three strong GitHub portfolio repositories**.
 - Every section of the spec must respect this budget; anything that threatens it belongs in
   **Non-Goals**, **Scope Boundaries**, or **Deferred Decisions**.
 
@@ -99,21 +99,21 @@ Each entry below specifies: **what the section must contain**, **target length**
 
 ### §A — Title & Document Metadata
 - **Content:** Title (`StatSport — AI-Powered Football Analytics and Prediction`), one-line tagline,
-  status (`Specification Phase`), version (`0.1 / draft`), author (André), date, and a 1-line
+  status (`Specification Phase`), version (`0.1 / draft`), author, date, and a 1-line
   "what this document is" statement.
 - **Length:** ~8–12 lines (a small metadata block + tagline).
 - **Leave out:** Changelog tables, approval signatures.
 
 ### §B — Purpose *(covers #1)*
-- **Content:** 2–4 sentences on *why this project exists*: to demonstrate, end-to-end, that André
+- **Content:** 2–4 sentences on *why this project exists*: to demonstrate, end-to-end, that the author
   can take football data and produce explainable analytics and defensible match predictions. State
   that it is a learning + portfolio artifact, not a product.
 - **Length:** 1 short paragraph.
 - **Leave out:** Feature lists (they live in §K), business/monetization framing.
 
 ### §C — Portfolio Strategy Alignment *(covers #2)*
-- **Content:** Position StatSport as **repo 1 of 3** in André's summer portfolio. Explain the
-  intended signal to Passau reviewers (data handling, ML reasoning, evaluation rigor, communication).
+- **Content:** Position StatSport as **repo 1 of 3** in the summer portfolio. Explain the intended
+  signal to reviewers (data handling, ML reasoning, evaluation rigor, communication).
   State the "three strong GitHub repositories" goal and how StatSport must be *finishable* so the
   other two projects can happen.
 - **Length:** 1 paragraph + a short bullet list of "signals this repo should send".
@@ -136,8 +136,8 @@ Each entry below specifies: **what the section must contain**, **target length**
   it as a candidate and defer the lock-in to a later spec (§U).
 
 ### §F — Target Audience *(covers #5)*
-- **Content:** Who *reads/evaluates* the repo: portfolio reviewers, Passau faculty/admissions,
-  recruiters, and André's future self. Describe what each wants to see.
+- **Content:** Who *reads/evaluates* the repo: portfolio reviewers, technical readers, GitHub
+  visitors, and the author's future self. Describe what each wants to see.
 - **Length:** Short bullet list (3–5 items).
 - **Leave out:** End-user personas (those are §G).
 

@@ -120,9 +120,9 @@ outputs/exports/*
 !outputs/reports/.gitkeep
 !outputs/exports/.gitkeep
 
-# ---- Internal recruiter / portfolio strategy reviews ----
-docs/reviews/*RECRUITER*
-docs/reviews/*WERKSTUDENT*
+# ---- Internal strategy reviews ----
+docs/reviews/*PRIVATE_REVIEW*
+docs/reviews/*INTERNAL_REVIEW*
 docs/reviews/*IMPACT*
 docs/reviews/*MULTI_SPECIALIST*
 docs/reviews/*VISUAL_MEMORY*

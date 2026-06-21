@@ -592,8 +592,8 @@ without enough portfolio value, or are excluded by data/principle.
 ## 9. Rationale (alignment with the specifications)
 
 - **`PROJECT_OVERVIEW.md` — portfolio value & scope.** The core set is the recognizable, expected feature
-  spine of a football predictor — the strongest, cleanest signal to reviewers and Passau admissions
-  readers — while staying bounded and clear of the betting non-goal (so corners/cards/odds are
+  spine of a football predictor — the strongest, cleanest signal to reviewers — while staying bounded
+  and clear of the betting non-goal (so corners/cards/odds are
   down-weighted or excluded). A modest, justified feature set respects the scope-creep guardrails.
 - **`DATA_SPEC.md` — available, deterministic, laptop-friendly.** Every recommended feature derives
   deterministically from documented Football-Data.co.uk fields; nothing requires scraping, external

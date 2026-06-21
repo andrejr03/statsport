@@ -12,7 +12,7 @@
 
 ## 1. Purpose
 
-The StatSport Showcase UI is an optional post-v1 presentation layer for the already complete StatSport repository. Its purpose is to make the finished project easier to understand, remember, and discuss during admissions review, internship screening, GitHub browsing, and technical portfolio review.
+The StatSport Showcase UI is an optional post-v1 presentation layer for the already complete StatSport repository. Its purpose is to make the finished project easier to understand, remember, and discuss during GitHub browsing, technical review, and public project review.
 
 This plan does not reopen StatSport v1 scope. StatSport v1 is complete without this UI. The showcase should sit on top of completed outputs and communicate the existing work more vividly, not add a new product surface or new ML capability.
 
@@ -43,8 +43,8 @@ The showcase should not replace the README, specs, evidence files, or reproducti
 
 Primary audiences:
 
-- University admissions reviewers who want to understand the project quickly.
-- Internship recruiters who skim for evidence of practical data and ML competence.
+- Technical reviewers who want to understand the project quickly.
+- GitHub visitors who skim for evidence of practical data and ML competence.
 - GitHub visitors who may not read every evidence document.
 - Technical portfolio reviewers who want to inspect methodology, results, and limitations.
 
@@ -593,8 +593,8 @@ Mitigation:
 
 Portfolio value is moderate to high if the UI is polished and bounded:
 
-- Admissions reviewers get a fast project walkthrough.
-- Recruiters see communication skill quickly.
+- Reviewers get a fast project walkthrough.
+- Readers see communication skill quickly.
 - Technical reviewers can inspect results and limitations without hunting through files.
 - The project becomes more memorable while preserving honesty.
 
